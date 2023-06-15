@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn-3.expansion.mx/dims4/default/5e0a9c1/2147483647/strip/true/crop/2025x1063+0+208/resize/1200x630!/format/jpg/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F4e%2Fc2%2F7e81d03745a0a9dc73a3483dc53e%2Fistock-1063640056.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height:100vh;
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+/* .login-box .avatar{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+} */
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkslategrey;
+
+}
+.login-box a:hover{
+    color: #fff;
+}
+/* 
+pagina del cajero */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn-3.expansion.mx/dims4/default/5e0a9c1/2147483647/strip/true/crop/2025x1063+0+208/resize/1200x630!/format/jpg/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F4e%2Fc2%2F7e81d03745a0a9dc73a3483dc53e%2Fistock-1063640056.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height:100vh;
+}
+.caja-cajero h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.caja-cajero{
+    width: 900px;
+    height: px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+.caja-cajero input{
+    display: inline-block;
+}
+.caja-cajero input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.caja-cajero label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.caja-cajero input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.caja-cajero input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
